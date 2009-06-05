@@ -62,10 +62,10 @@ function tb_show(caption, url, imageGroup) {//function called when the user clic
 	   		baseURL = url;
 	   }
 
-	   var urlString = /\.jpg$|\.jpeg$|\.png$|\.gif$|\.bmp$|\;download$|\;thumb$/;
+	   var urlString = /\.jpg$|\.jpeg$|\.png$|\.gif$|\.bmp$|\;download$/;
 	   var urlType = baseURL.toLowerCase().match(urlString);
 
-		if(urlType == '.jpg' || urlType == '.jpeg' || urlType == '.png' || urlType == '.gif' || urlType == '.bmp' || urlType == ';download' || urlType == ';thumb?width=1000&size=1000&height=1000'){ //code to show images
+		if(urlType == '.jpg' || urlType == '.jpeg' || urlType == '.png' || urlType == '.gif' || urlType == '.bmp' || urlType == ';download'){ //code to show images
 
 			TB_PrevCaption = "";
 			TB_PrevURL = "";
