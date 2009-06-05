@@ -62,7 +62,7 @@ function tb_show(caption, url, imageGroup) {//function called when the user clic
 	   		baseURL = url;
 	   }
 
-	   var urlString = /\.jpg$|\.jpeg$|\.png$|\.gif$|\.bmp$|\;download$|\;thumbs$/;
+	   var urlString = /\.jpg$|\.jpeg$|\.png$|\.gif$|\.bmp$|\;download$|\;thumb$/;
 	   var urlType = baseURL.toLowerCase().match(urlString);
 
 		if(urlType == '.jpg' || urlType == '.jpeg' || urlType == '.png' || urlType == '.gif' || urlType == '.bmp' ||
